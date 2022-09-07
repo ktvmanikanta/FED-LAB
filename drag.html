@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 <html>
 <head>
 <style>
@@ -6,8 +6,11 @@
   width: 400px;
   height: 100px;
   padding: 20px;
-  border: 5px solid;
+  border: 5px solid red;
+  background-color: grey;
+  
 }
+
 </style>
 <script>
 function allowDrop(ev) {
@@ -27,11 +30,12 @@ function drop(ev) {
 </head>
 <body>
 
-<p>Drag the image into the rectangle:</p>
+
+<p>Drag the image into the rectangle</p>
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <br>
-<img id="drag1" src="/home/3-cse-b/20bq1a05b0/20bq1a05b4/images.png" draggable="true" ondragstart="drag(event)" width="400" height="99">
+<img id="drag1" src="tree-736885__480.jpg" draggable="true" ondragstart="drag(event)" width="400" height="99">
 
 </body>
 </html>
